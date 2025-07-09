@@ -1,0 +1,5 @@
+openpyxl
+seaborn
+matplotlib
+pandas
+ipython
