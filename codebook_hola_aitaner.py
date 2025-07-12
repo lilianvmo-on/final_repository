@@ -204,7 +204,7 @@ elif pagina_seleccionada == 'Youtube':
         # hide_index=True oculta el índice adicional para que no aparezca una columna duplicada de números
         st.dataframe(tabla, hide_index=True)
 
-    #En caso el usuario elija la opción "Visualizaciones" del selectbox se ejecuta lo siguiente:
+    #En caso el usuario elija la opción "Comentarios" del selectbox se ejecuta lo siguiente:
     elif opcion == "Comentarios":
         #Subtítulo con el nombre del ranking que se visualiza (comentarios en Youtube)
         st.subheader("💬 Top 15 canciones con más comentarios en YouTube")
